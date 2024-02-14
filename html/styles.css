@@ -177,7 +177,7 @@ footer {
     font-size: .75rem;
     display: flex;
     justify-content: center;
-    margin: 0 auto;
+    margin: 1rem auto;
     padding: 0;
     width: var(--text-width);
     background: repeating-linear-gradient(
