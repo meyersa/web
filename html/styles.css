@@ -5,7 +5,7 @@
     --text-primary: #2b2926;
     --text-secondary: #1d2121;
     --text-tertiary: #2a2f2f;
-    --background-color: #bfe3f1;
+    --background-color: #aedef0;
     --accent-one: #75c3e2;
     --accent-two: #9cdff9;
 }
@@ -54,13 +54,7 @@
 
 }
 html, body {
-    background: repeating-linear-gradient(
-        135deg,
-        var(--accent-one),
-        var(--accent-one) 0.1rem,
-        var(--accent-two) 0.3rem,
-        var(--accent-two) 1rem /* determines size */
-    );
+    background: var(--background-color);
     font-family: Georgia;
     padding: 0;
     margin: 0;
@@ -149,7 +143,6 @@ img {
         var(--accent-two) 0.3rem,
         var(--accent-two) 0.25rem /* determines size */
     );
-
     width: var(--text-width);
     height: 100%;
 }
@@ -180,6 +173,7 @@ footer {
     margin: 1rem auto;
     padding: 0;
     width: var(--text-width);
+    border-radius: var(--rounding);
     background: repeating-linear-gradient(
         45deg,
         var(--accent-one),
