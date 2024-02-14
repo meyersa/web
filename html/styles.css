@@ -171,8 +171,6 @@ footer {
     display: flex;
     justify-content: center;
     margin: 1rem auto;
-    padding: 0;
-    width: var(--text-width);
     border-radius: var(--rounding);
     background: repeating-linear-gradient(
         45deg,
