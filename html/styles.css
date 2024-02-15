@@ -8,6 +8,12 @@
     --background-color: #aedef0;
     --accent-one: #75c3e2;
     --accent-two: #9cdff9;
+    /* --text-primary: #2b2926;
+    --text-secondary: #1d2121;
+    --text-tertiary: #2a2f2f;
+    --background-color: #effbff;
+    --accent-one: #6f838b;
+    --accent-two: #c3e6f4; */
 }
 @media (max-width: 60rem){
     :root {
